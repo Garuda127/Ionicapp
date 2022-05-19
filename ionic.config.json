@@ -1,0 +1,8 @@
+{
+  "name": "ionicapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "d09a951a"
+}

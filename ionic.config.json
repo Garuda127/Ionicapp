@@ -1,8 +1,7 @@
 {
-  "name": "ionicapp",
+  "name": "Profin",
   "integrations": {
     "capacitor": {}
   },
-  "type": "react",
-  "id": "d09a951a"
+  "type": "react"
 }

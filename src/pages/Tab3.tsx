@@ -5,7 +5,7 @@ import { ActionSheet, ActionSheetOptionStyle } from '@capacitor/action-sheet';
 
 import { IonContent, IonHeader, IonSlides, IonSearchbar, IonImg, IonPage, IonSlide, IonTitle, IonToolbar, IonButton, IonToast } from '@ionic/react';
 import './Tab3.css';
-import { logoFacebook, logoSteam, logoWhatsapp } from 'ionicons/icons';
+import { logoFacebook, logoSteam, logoWhatsapp, person } from 'ionicons/icons';
 import { Toast } from '@capacitor/toast';
 import { Device } from '@capacitor/device';
 import { Network } from '@capacitor/network';
@@ -34,7 +34,7 @@ const Tab3: React.FC = () => {
 
           <IonSlide>
 
-            <IonImg src={logoWhatsapp} />
+            <IonImg className='blue'  src={person}  />
           </IonSlide>
           <IonSlide>
             <IonImg src={logoSteam} />
@@ -49,6 +49,7 @@ const Tab3: React.FC = () => {
           duration={1100}
         />
 
+        <IonContent className='m-2'>
         <IonButton onClick={() => setShowToast1(true)}>Ver Toast</IonButton>
         <IonButton onClick={() => share()}>Compartir información</IonButton>
         <IonButton onClick={() => link()}>FRAMEWORK</IonButton>
@@ -57,7 +58,7 @@ const Tab3: React.FC = () => {
         <IonButton onClick={() => gg2()}>Ver si esta cargando</IonButton>
         <IonButton onClick={() => gg3()}>Ver si esta conectado a Wifi</IonButton>
         <IonButton onClick={() => gg5()}>Ver tipo de conexion</IonButton>
-
+        </IonContent>
 
       </IonContent>
     </IonPage>

@@ -18,7 +18,7 @@ const Tab1: React.FC = () => {
         <IonGrid>
         <IonRow>
         <IonCol size='6'>
-        <IonCard>
+        <IonCard color='dark'>
           
           <IonCardHeader>
             <IonImg src={gameControllerSharp} />
@@ -33,7 +33,7 @@ const Tab1: React.FC = () => {
         </IonCol>
 
         <IonCol size='6'>
-        <IonCard>
+        <IonCard color='warning'>
           <IonCardHeader>
             <IonImg src={diamondSharp} />
             <IonCardSubtitle>Joyas</IonCardSubtitle>
@@ -47,7 +47,7 @@ const Tab1: React.FC = () => {
 
         </IonCol>
         <IonCol size='6'>
-        <IonCard>
+        <IonCard color='primary'>
           <IonCardHeader>
             <IonImg src={logoDiscord} />
             <IonCardSubtitle>Comunicación</IonCardSubtitle>
@@ -60,7 +60,7 @@ const Tab1: React.FC = () => {
         </IonCard>
         </IonCol>
         <IonCol size='6'>
-        <IonCard >
+        <IonCard color='success'>
           <IonCardHeader>
             <IonImg src={logoWhatsapp} />
             <IonCardSubtitle>Apps</IonCardSubtitle>
